@@ -1581,3 +1581,29 @@ html {
     margin-left: 8rem;
   }
 }
+
+.ghe_emoji {
+    padding: 0;
+    margin: 0;
+    border:0;
+    font-size: 1.25em;
+    mix-width: 1ch;
+    max-width: 32px;
+    line-height: 1;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align:-0.075em;
+}
+
+.ghe_emoji img{
+    padding: 0;
+    margin: 0;
+    border:0;
+    font-size: 1.25em;
+    mix-width: 1ch;
+    max-width: 32px;
+    line-height: 1;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align:-0.075em;
+}
