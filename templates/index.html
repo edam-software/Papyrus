@@ -15,7 +15,7 @@
   <ul class="flex px-2 space-x-4 text-lg">
     {% for name, link in SOCIAL %}
     <li><a href="{{ link }}"><i class="fab fa-{{ name }} fa-lg" aria-hidden="true" target="_blank"
-          rel="noopener noreferrer" title="{{ name }}"></i></a></li>
+          rel="me noopener noreferrer" title="{{ name }}"></i></a></li>
     {% endfor %}
     {% if FEED_ALL_ATOM %}
     <li><a href="{{ FEED_DOMAIN }}/
