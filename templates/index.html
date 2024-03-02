@@ -45,6 +45,14 @@
         <div class="bg-white dark:bg-zinc-800 p-4 md:p-6 mb-4 rounded-lg">
           <header class="font-semibold text-2xl mb-2">
             <h1>{{ article.title }}</h1>
+            {% if loop.index%2 %}
+            <span><img src="../static/images/man_technologist.png"></img></span>
+            {% elif loop.index%3 %}
+            <span><img src="../static/images/man_dancing.png"></img></span>
+            {% else %}
+            <span><img src="../static/images/scientist.png"></img></span>
+            {% endif %}
+
           </header>
           <div class="max-w-7xl container mx-auto my-4 justify-center overflow-hidden mb-2 text-sm text-zinc-800 dark:text-zinc-400
           prose lg:max-w-none prose-headings:text-zinc-800 prose-headings:dark:text-zinc-300 
