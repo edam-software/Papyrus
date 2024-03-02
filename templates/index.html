@@ -46,11 +46,11 @@
           <header class="font-semibold text-2xl mb-2">
             <h1>{{ article.title }}</h1>
             {% if loop.index%2 %}
-            <span><img src="../static/images/man_technologist.png"></img></span>
+            <span><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/man_technologist.png"></img></span>
             {% elif loop.index%3 %}
-            <span><img src="../static/images/man_dancing.png"></img></span>
+            <span><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/man_dancing.png"></img></span>
             {% else %}
-            <span><img src="../static/images/scientist.png"></img></span>
+            <span><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/scientist.png"></img></span>
             {% endif %}
 
           </header>
